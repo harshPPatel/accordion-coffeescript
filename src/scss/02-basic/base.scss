@@ -1,0 +1,32 @@
+body {
+  width: 800px;
+  margin: 4rem auto 0;
+}
+
+h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.accordion {
+  &-list {
+    margin-top: 2rem;
+
+    &.active {
+      .body {
+        display: block;
+      }
+    }
+  }
+
+  .header {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background-color: #b8b8b8;
+  }
+
+  .body {
+    display: none;
+  }
+}

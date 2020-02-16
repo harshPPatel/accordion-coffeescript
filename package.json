@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/harshPPatel/starter-kit#readme",
   "devDependencies": {
+    "coffeescript": "^2.5.1",
     "htmlhint": "^0.11.0",
     "husky": "^4.0.7",
     "jsdoc": "^3.6.3",
