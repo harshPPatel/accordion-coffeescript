@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Starter Kit with Parcel JS</title>
+    <title>Accordion with CoffeeScript ☕️</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
     <link rel="stylesheet" href="./scss/app.scss">
   </head>
   <body>
     <main>
-
       <h1>
         Accordion with <span class="coffee">CoffeeScript</span> ☕️
       </h1>
@@ -19,9 +23,10 @@
         Just trying to learn CoffeeScript!
       </p>
       <ul class="accordion" id="myList">
-        <li class="accordion-list">
-          <div class="header" data-target="section-1">
+        <li class="accordion-list active">
+          <div class="header">
             <h3>So, are you curious about CoffeeScript ☕️?</h3>
+            <img src="./img/chevron.svg" alt="Chevron Image">
           </div>
           <div class="body">
             <p>
@@ -31,52 +36,65 @@
           </div>
         </li>
         <li class="accordion-list">
-          <div class="header" data-target="section-2">
+          <div class="header">
             <h3>What are you using in this project 🤔?</h3>
+            <img src="./img/chevron.svg" alt="Chevron Image">
           </div>
           <div class="body">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quo dolor earum recusandae, tempora nulla ab dignissimos, atque expedita dicta, sint quod non dolorum ad.
+              I am using CoffeeScript for DOM maipulation and CSS for the animation and other stuff. I am using parcel.js as a bundler 🏗 for this project. The reason for using bundler for such small project is parcel makes easy to work with CoffeeScript because it skips the configuration part. 🤘
             </p>
           </div>
         </li>
         <li class="accordion-list">
-          <div class="header" data-target="section-3">
+          <div class="header">
             <h3>Did you design this 😍?</h3>
+            <img src="./img/chevron.svg" alt="Chevron Image">
           </div>
           <div class="body">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quo dolor earum recusandae, tempora nulla ab dignissimos, atque expedita dicta, sint quod non dolorum ad.
+              Yeah, I like my websites clean an beautiful 🌅. I design my all website projects on my own. I have designed this website in figma which you can find the design 
+              <a href="https://www.figma.com/file/y318lHq8V3VML4LnhXSwf2/Accoridan-with-CoffeeScript?node-id=1%3A2" target="_blank">
+                here
+              </a> 🔗.
             </p>
           </div>
         </li>
         <li class="accordion-list">
-          <div class="header" data-target="section-4">
+          <div class="header">
             <h3>Why to create Accordion with CoffeeScript 😲?</h3>
+            <img src="./img/chevron.svg" alt="Chevron Image">
           </div>
           <div class="body">
             <p>
-              This project is not a web app created with CoffeeScript, It just uses few lines of CoffeeScript to manipulate the DOM of the website. Currently I am using CoffeeScript to toggle active class to each of these list items. I may change this code in teh future with class based CoffeeScript Code!
+              This project is not a web app created with CoffeeScript ☕️, It just uses few lines of CoffeeScript to manipulate the DOM 🌲 of the website. Currently I am using CoffeeScript to toggle active class to each of these list items. I may change this code in teh future with class based CoffeeScript Code 🎭!
             </p>
           </div>
         </li>
         <li class="accordion-list">
-          <div class="header" data-target="section-5">
+          <div class="header">
             <h3>Where can I find this project’s code 📝?</h3>
+            <img src="./img/chevron.svg" alt="Chevron Image">
           </div>
           <div class="body">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quo dolor earum recusandae, tempora nulla ab dignissimos, atque expedita dicta, sint quod non dolorum ad.
+              All of my projects are open-source and you can find the code for all projects on 
+              <a href="https://github.com/harshPPatel?tab=repositories" target="_blank">
+                GitHub
+              </a> 🗃. You can find code for this project
+              <a href="https://github.com/harshPPatel/accordion-coffeescript" target="_blank">
+                here
+              </a> 😇!
             </p>
           </div>
         </li>
+        <p class="footer">
+          created by:
+          <a href="https://github.com/harshPPatel" target="_blank">
+            harshPPatel
+          </a> 👨
+        </p>
       </ul>
-      <p class="footer">
-        created by:
-        <a href="https://github.com/harshPPatel" target="_blank">
-          harshPPatel
-        </a>
-      </p>
     </main>
   </body>
   <script src="./js/app.coffee"></script>
